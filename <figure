@@ -29,3 +29,4 @@
 <figure onmouseout="alert(1)">test</figure>
 <figure onmouseover="alert(1)">test</figure>
 <figure onmouseup="alert(1)">test</figure>
+<figure onpaste="alert(1)" contenteditable>test</figure>
